@@ -1,0 +1,213 @@
+.App{
+    background-color: cornflowerblue;
+    height: 646px;
+    padding: 40px 0 0 100px;
+}
+@media only screen and (max-width: 768px) {
+    .App {
+        padding: 10px  20px 0 20px
+    }
+  }
+.dashboard{
+    width: 100%;
+    max-width: 1120px;
+    height: 570px;
+    border: 4px solid white;
+    border-radius: 15px ;
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .dashboard {
+        flex-direction: column;
+        height: 600px; 
+        padding: 10px; 
+        border-radius: 10px; 
+      }
+  }
+.lists{
+    width: 400px;
+    height: 560px;
+    border:0;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+.lists header{
+    display: flex;
+    font-size: 22px;
+    gap: 250px;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .lists header {
+        width: 370px;
+        font-size: 18px;
+        gap: 260px;
+        border-bottom-width: 2px solid ;
+    }
+  }
+
+.lists header .para2{
+    margin: 14px 0 15px 25px;
+}
+@media only screen and (max-width: 768px) {
+    .lists header .para2 {
+        margin: 5px 0 0 20px;
+    }
+  }
+.lists header .icon{
+    margin-top: 18px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .lists header .icon {
+        margin-top: 9px;
+    }
+  }
+.navbar{
+    height: 60px;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    border-radius: 0 10px 0 0;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: 40px;
+        border: 2px solid lightgray;
+        border-radius: 0 0 0 0;
+        margin-top: 5px;
+    }
+  }
+.message{
+    width: 709px;
+    height: 450px;
+    border: 0;
+    outline: none;
+    margin: 2px 0 0 0;
+}
+@media only screen and (max-width: 768px) {
+    .message {
+        width: 370px;
+        height: 410px;
+        border: 0;
+        outline: none;
+        margin: 2px 0 0 0;
+    }
+  }
+.inputbox{
+    width: 623px;
+    height: 47px;
+    margin: 1px 0 0 0;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .inputbox {
+        width: 294px;
+    height: 36px;
+    margin: 6px 0 0 0;
+    outline: none;
+    border: 0;
+    font-size: 17px;
+    }
+  }
+.footer button{
+    width: 88px;
+    height:46px;
+    color: green;
+    background-color: lightgreen;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    border-radius:  0 0 10px 0;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .footer button {
+        width: 75px;
+    height:38px;
+    color: green;
+    background-color: lightgreen;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    border-radius:  0 0 0 0;
+    }
+  }
+.para1{
+    font-size: 22px;
+    margin: 0 0 0 30px;
+    padding: 8px;
+    color: #333;
+}
+@media only screen and (max-width: 768px) {
+    .para1 {
+      width: 90px; 
+      font-size: 18px;
+    margin-left:0;
+    }
+  }
+.usershow{
+    overflow-y: scroll;
+    max-height: 500px;
+    cursor: pointer;
+}
+.hr { width: 390px;
+    border: 1px solid lightgray;
+}
+@media only screen and (max-width: 768px) {
+    .hr {
+      width: 370px; 
+    }
+  }
+.para2{
+    cursor: pointer;
+}
+.para3{
+    font-size: 25px;
+    padding: 10px 0 0 30px;
+}
+@media only screen and (max-width: 768px) {
+    .para3 {
+        font-size: 20px;
+    padding: 5px 0 0 10px;
+    }
+  }
+.sms {
+    margin-bottom: 10px;
+  }
+  
+  .message-user {
+    text-align: right;
+    border: 1px solid grey;
+    background-color: #333;
+    color: white; 
+    padding: 8px 15px;
+    border-radius: 8px;
+    max-width: 35%; 
+    word-wrap: break-word;
+    overflow: hidden; 
+    margin-left: auto;
+  }
+  
+  .message-admin {
+    text-align: left; 
+    border: 1px solid grey;
+    background-color:darkgray;
+    color: black; 
+    padding: 8px 15px;
+    border-radius: 8px;
+    max-width: 35%; 
+    word-wrap: break-word;
+    overflow: hidden; 
+    margin-right: auto; 
+  }
+    .message{
+    overflow-y: auto;
+  }
+  
